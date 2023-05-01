@@ -25,7 +25,7 @@ public extension Configurable where Self: AnyObject {
     }
 
     /// Executes the given closure with the object as its argument.
-    /// 
+    ///
     /// ```
     /// let label = UILabel().then {
     ///     $0.text = "text"
