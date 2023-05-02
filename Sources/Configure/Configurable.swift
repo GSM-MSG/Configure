@@ -138,3 +138,13 @@ public extension Configurable where Self: Any {
     }
 }
 
+extension NSObject: Configurable {}
+extension Date: Configurable {}
+extension Array: Configurable {}
+extension Dictionary: Configurable {}
+extension Set: Configurable {}
+extension String: Configurable {}
+extension Int: Configurable {}
+extension Double: Configurable {}
+extension Float: Configurable {}
+
